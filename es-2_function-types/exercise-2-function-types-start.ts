@@ -4,7 +4,7 @@
 
 // Add types to this function declaration.
 
-function doubleThePopulation(value:any) {
+function doubleThePopulation(value:number) {
     return value * 2;
 }
 
@@ -12,11 +12,12 @@ function doubleThePopulation(value:any) {
 
 doubleThePopulation(5);
 
-doubleThePopulation("6.12");
+//doubleThePopulation("6.12"); error
+doubleThePopulation(6.12);
 
 doubleThePopulation(8_526);
 
-doubleThePopulation(false);
+//doubleThePopulation(false);
 
 // Alter this function so the `language2` parameter is optional.
 // Hint: Check `language2` is not `undefined` before passing it to `console.log()`.
